@@ -1,52 +1,41 @@
+body {
+	width: 550px;
+	margin: auto;
+	background-color: #851400;
+	background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
 h1 {
 	font-family: "Raleway", sans-serif;
 	text-align: center;
 	font-size: 3em;
+	border-bottom: 2px solid black;
+	word-spacing: 13px;
 }
 
-.container {
-	width: 450px;
-	margin-top: auto 0;
-	margin-right: auto;
-	margin-left: auto;
+#message {
+	font-size: 25px;
+	font-family: "Raleway", sans-serif;
+	padding: 10px;
+	color: #000411;
 }
 
-#para {
-	font-size: 2em;
-	color: black;
-	font-weight: bold;
-	text-align: center;
+.square {
+	height: 135px;
+	width: 135px;
+	font-size: 45px;
+	padding-left: 40px;
 	font-family: "Raleway", sans-serif;
 
+
 }
 
-.gameboard {
-	width: 430px;
-	height: 410px;
-	z-index: 1;
-	padding-bottom: 20px;
-	padding-top: 5px;
+#restart {
+	font-size: 25px;
+	font-family: "Raleway", sans-serif;	
+	text-decoration: none;
+	color: #9A031E;
+	padding: 20px;
+	margin: 10px;
 }
 
-td {
-	border: 2px solid black;
-	height: 130px;
-	width: 135px;
-	border-style: dotted;
-	text-align: center;
-}
-
-.button {
-	background-color: green;
-	color: white;
-	width: 130px;
-	margin: 0 auto;
-	padding: 2px;
-	padding-top: 5px;
-	text-align: center;
-}
-
-body {
-background-color: #851400;
-background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
-}
